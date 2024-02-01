@@ -1,0 +1,13 @@
+uuid: f7f79533-f997-415f-9e6d-b65563eab2db
+langcode: sv
+status: false
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: ZbXunWS_xAvMZXFfinyvClDAb_RCVLt7gAzE3v16E-Q
+id: user.full
+label: Användarkonto
+description: ''
+targetEntityType: user
+cache: true

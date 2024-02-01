@@ -1,0 +1,22 @@
+uuid: 67deaef1-b8c3-4cd3-b5f2-a9e4a1e9f54e
+langcode: sv
+status: true
+dependencies:
+  theme:
+    - claro
+_core:
+  default_config_hash: ACjBZI5shAMiiUpsz-inLYVXDqNNXRnSzAWV3kV_8Hw
+id: claro_primary_local_tasks
+theme: claro
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primära flikar'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

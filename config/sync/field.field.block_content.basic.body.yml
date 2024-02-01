@@ -1,0 +1,26 @@
+uuid: de0625e2-048b-4fa2-b98e-1bef46a6443f
+langcode: sv
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: j00Gfs9AFqwK4x9RIsISLbPO7vA12psPR4s60wOIwQo
+id: block_content.basic.body
+field_name: body
+entity_type: block_content
+bundle: basic
+label: Brödtext
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

@@ -1,0 +1,22 @@
+uuid: 15cea640-fad1-4804-bded-469e90b16e60
+langcode: sv
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - olivero
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: olivero_content
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Huvudsakligt sidinnehåll'
+  label_display: '0'
+  provider: system
+visibility: {  }
