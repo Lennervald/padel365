@@ -1,0 +1,22 @@
+uuid: e29b1f63-bceb-4940-aee2-09fda154c2c9
+langcode: sv
+status: true
+dependencies:
+  theme:
+    - padel365
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: padel365_secondary_local_tasks
+theme: padel365
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Sekundära flikar'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

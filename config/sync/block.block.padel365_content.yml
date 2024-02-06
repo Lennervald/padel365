@@ -1,0 +1,22 @@
+uuid: c714f340-85c6-4c67-912c-90690d3867c9
+langcode: sv
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - padel365
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: padel365_content
+theme: padel365
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Huvudsakligt sidinnehåll'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 189c05f3-0208-4b87-b2d4-49e43e66e8b6
+langcode: sv
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - padel365
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: padel365_messages
+theme: padel365
+region: header
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Statusmeddelande
+  label_display: '0'
+  provider: system
+visibility: {  }

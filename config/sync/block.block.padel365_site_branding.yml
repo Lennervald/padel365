@@ -1,0 +1,25 @@
+uuid: 936f02d8-c4f9-4ffb-80f0-ee471f1a5d80
+langcode: sv
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - padel365
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: padel365_site_branding
+theme: padel365
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Webbplatsens varumärke'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

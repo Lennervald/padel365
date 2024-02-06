@@ -1,0 +1,20 @@
+uuid: 443e8254-9272-4480-9701-2d1234dee8e1
+langcode: sv
+status: true
+dependencies:
+  theme:
+    - padel365
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: padel365_page_title
+theme: padel365
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: Sidtitel
+  label_display: '0'
+  provider: core
+visibility: {  }

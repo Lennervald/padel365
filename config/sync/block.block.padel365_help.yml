@@ -1,0 +1,22 @@
+uuid: 11a96446-4dc0-4b57-ae50-89790edb0cb2
+langcode: sv
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - padel365
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: padel365_help
+theme: padel365
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Hjälp
+  label_display: '0'
+  provider: help
+visibility: {  }
