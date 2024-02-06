@@ -1,0 +1,23 @@
+name: Padel365
+type: theme
+core_version_requirement: ^8.8 || ^9
+
+base theme: false
+
+regions:
+  header: Header
+  content: Content
+  footer: Footer
+
+component-libraries:
+  padel365-components:
+    paths:
+      - components
+
+libraries:
+  - padel365/font.source-sans-pro
+  - padel365/icons.font-awesome
+  - padel365/global
+
+ckeditor_stylesheets:
+  - build/css/ckeditor.css
