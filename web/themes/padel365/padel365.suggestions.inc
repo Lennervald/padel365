@@ -2,8 +2,6 @@
 
 declare(strict_types=1);
 
-use Drupal;
-
 /**
  * @file
  * This file contains additional theme suggestions added by the theme.
