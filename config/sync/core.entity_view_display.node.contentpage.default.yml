@@ -1,0 +1,20 @@
+uuid: 42a739e8-aa26-43da-9873-3f943979f167
+langcode: sv
+status: true
+dependencies:
+  config:
+    - node.type.contentpage
+  module:
+    - user
+id: node.contentpage.default
+targetEntityType: node
+bundle: contentpage
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

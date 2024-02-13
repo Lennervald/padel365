@@ -1,0 +1,11 @@
+uuid: 23270d39-6200-4d40-99c1-4029427772da
+langcode: sv
+status: true
+dependencies:
+  config:
+    - node.type.contentpage
+id: node.contentpage
+target_entity_type_id: node
+target_bundle: contentpage
+default_langcode: site_default
+language_alterable: false
