@@ -5,6 +5,7 @@ core_version_requirement: ^8.8 || ^9 || ^10
 base theme: false
 
 regions:
+  messages: Messages
   header: Header
   content: Content
   footer: Footer

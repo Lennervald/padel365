@@ -39,6 +39,11 @@
  */
 #}
 <div class="site-container">
+
+  {% if page.messages %}
+    {{ page.messages }}
+  {% endif %}
+
   {% if page.header %}
     {{ page.header }}
   {% endif %}
