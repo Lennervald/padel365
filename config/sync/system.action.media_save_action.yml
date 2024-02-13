@@ -1,0 +1,13 @@
+uuid: ddca7106-e961-4ca5-9e35-1c284f336c9c
+langcode: sv
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: VVyUA6PIaVeGtcIbgEWqJ6SYDiJdReBeojFswURFpKs
+id: media_save_action
+label: 'Spara media'
+type: media
+plugin: 'entity:save_action:media'
+configuration: {  }

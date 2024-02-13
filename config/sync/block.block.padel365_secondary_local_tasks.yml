@@ -1,6 +1,6 @@
 uuid: e29b1f63-bceb-4940-aee2-09fda154c2c9
 langcode: sv
-status: true
+status: false
 dependencies:
   theme:
     - padel365
@@ -9,7 +9,7 @@ _core:
 id: padel365_secondary_local_tasks
 theme: padel365
 region: header
-weight: -2
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:

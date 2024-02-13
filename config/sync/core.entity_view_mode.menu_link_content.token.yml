@@ -1,0 +1,11 @@
+uuid: db55e2c5-745d-4206-a2fd-7911d27893d2
+langcode: sv
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.token
+label: Token
+description: ''
+targetEntityType: menu_link_content
+cache: true

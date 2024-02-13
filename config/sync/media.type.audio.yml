@@ -1,0 +1,16 @@
+uuid: 5f6b21f4-de62-4444-8001-32258c71189b
+langcode: sv
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: eJw8n6Tk2tO3ZysuEeGR1gZa1yRffaZzR4t0Q7iNurs
+id: audio
+label: Ljud
+description: 'En lokalt lagrad ljudfil.'
+source: audio_file
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_audio_file
+field_map:
+  name: name

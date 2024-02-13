@@ -1,0 +1,13 @@
+uuid: 9c276c76-9489-4358-bf46-1593c5eea8fc
+langcode: sv
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: h3BeHVei4Lnyqbkao3YiF4KqoY-DhRvUNfEgKG8Rgjg
+id: paragraph.preview
+label: Förhandsgranska
+description: ''
+targetEntityType: paragraph
+cache: true
