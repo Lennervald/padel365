@@ -9,7 +9,7 @@ _core:
 id: padel365_secondary_local_tasks
 theme: padel365
 region: header
-weight: -3
+weight: -2
 provider: null
 plugin: local_tasks_block
 settings:
