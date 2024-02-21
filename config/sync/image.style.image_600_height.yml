@@ -3,7 +3,7 @@ langcode: sv
 status: true
 dependencies: {  }
 name: image_600_height
-label: 'Image (600 height)'
+label: 'Bild (skalad 600px höjd)'
 effects:
   d1f06ea4-5cd0-4201-9f96-ed65eac75545:
     uuid: d1f06ea4-5cd0-4201-9f96-ed65eac75545
