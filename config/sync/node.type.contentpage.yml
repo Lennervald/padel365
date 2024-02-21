@@ -25,7 +25,7 @@ third_party_settings:
     unpublish_revision: false
 name: Innehållssida
 type: contentpage
-description: 'Innehållstyp för en innehållssida, exemelvis "Om Padel365". Här har du möjlighet att lägga in en hero bild, sidrubrik samt skriva en större text. Även sektioner kan läggas till efter texten.'
+description: 'Innehållstyp för en innehållssida, exemelvis "Om Padel365". Här har du möjlighet att lägga in en hero sektion (sidtitel, bild och länkar) och därefter ett större formaterad textblock. Även sektioner kan läggas till efter textblocket.'
 help: ''
 new_revision: true
 preview_mode: 0

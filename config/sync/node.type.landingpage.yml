@@ -24,7 +24,7 @@ third_party_settings:
     unpublish_revision: false
 name: Landningssida
 type: landingpage
-description: ''
+description: 'Innehållstyp för en landningssida, exemelvis "startsidan". Den här typen av sida innehåller en hero sektion (sidtitel, bild och länkar) och därefter egna sektioner för olika typer av strukturerat innehåll.'
 help: ''
 new_revision: true
 preview_mode: 0
