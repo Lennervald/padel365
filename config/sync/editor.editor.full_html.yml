@@ -95,11 +95,13 @@ settings:
       multiBlock: true
     ckeditor5_sourceEditing:
       allowed_tags: {  }
+    linkit_extension:
+      linkit_enabled: false
 image_upload:
   status: true
   scheme: public
   directory: inline-images
-  max_size: ''
+  max_size: '2 MB'
   max_dimensions:
     width: 0
     height: 0

@@ -3,11 +3,13 @@ langcode: sv
 status: true
 dependencies:
   config:
+    - filter.format.full_html
     - node.type.article
     - taxonomy.vocabulary.tags
   module:
     - contextual
     - file
+    - filter
     - node
     - path
     - system
@@ -35,6 +37,7 @@ permissions:
   - 'edit own article content'
   - 'edit terms in tags'
   - 'revert all revisions'
+  - 'use text format full_html'
   - 'view all revisions'
   - 'view own unpublished content'
   - 'view the administration theme'
