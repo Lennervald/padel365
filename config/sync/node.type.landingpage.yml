@@ -1,4 +1,4 @@
-uuid: d3d76543-9164-4990-9487-8d8781bf27cc
+uuid: 06b74a33-03a6-4452-a0a8-d5fc5db339a1
 langcode: sv
 status: true
 dependencies:
@@ -23,8 +23,8 @@ third_party_settings:
     unpublish_required: false
     unpublish_revision: false
 name: Landningssida
-type: landing_page
-description: 'Innehållstyp för en landningssida, exempelvis startsidan. Sidan kan byggas upp med en hero och därefter sektioner.'
+type: landingpage
+description: ''
 help: ''
 new_revision: true
 preview_mode: 0

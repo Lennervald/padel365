@@ -1,13 +1,13 @@
-uuid: 5c31468e-3bae-4faf-aeda-523ec5aceb5c
+uuid: eebb6e49-5663-45da-8bf2-7cd4b76f777b
 langcode: sv
 status: true
 dependencies:
   config:
-    - node.type.landing_page
-id: node.landing_page.title
+    - node.type.landingpage
+id: node.landingpage.title
 field_name: title
 entity_type: node
-bundle: landing_page
+bundle: landingpage
 label: 'Sidans rubrik (visas i hero)'
 description: ''
 required: true
