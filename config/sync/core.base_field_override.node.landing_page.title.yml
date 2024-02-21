@@ -1,0 +1,18 @@
+uuid: 5c31468e-3bae-4faf-aeda-523ec5aceb5c
+langcode: sv
+status: true
+dependencies:
+  config:
+    - node.type.landing_page
+id: node.landing_page.title
+field_name: title
+entity_type: node
+bundle: landing_page
+label: 'Sidans rubrik (visas i hero)'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
