@@ -7,8 +7,9 @@ dependencies:
     - scheduler
 third_party_settings:
   menu_ui:
-    available_menus: {  }
-    parent: ''
+    available_menus:
+      - main
+    parent: 'main:'
   scheduler:
     expand_fieldset: when_required
     fields_display_mode: vertical_tab
@@ -24,8 +25,8 @@ third_party_settings:
     unpublish_revision: false
 name: Innehållssida
 type: contentpage
-description: 'Använd den här innehållstypen för att skapa en innehållssida. Ett exempel på en sådan sida är startsidan där du enkelt kan lägga till och ta bort sektioner med olika typer av innehåll.'
+description: 'Innehållstyp för en innehållssida, exemelvis "Om Padel365". Här har du möjlighet att lägga in en hero bild, sidrubrik samt skriva en större text. Även sektioner kan läggas till efter texten.'
 help: ''
 new_revision: true
-preview_mode: 1
+preview_mode: 0
 display_submitted: false
