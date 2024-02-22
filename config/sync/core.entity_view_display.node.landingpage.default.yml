@@ -3,6 +3,9 @@ langcode: sv
 status: true
 dependencies:
   config:
+    - field.field.node.landingpage.field_lp_hero_image
+    - field.field.node.landingpage.field_lp_hero_preamble
+    - field.field.node.landingpage.field_lp_section
     - node.type.landingpage
   module:
     - user
@@ -10,11 +13,10 @@ id: node.landingpage.default
 targetEntityType: node
 bundle: landingpage
 mode: default
-content:
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 100
-    region: content
+content: {  }
 hidden:
+  field_lp_hero_image: true
+  field_lp_hero_preamble: true
+  field_lp_section: true
   langcode: true
+  links: true

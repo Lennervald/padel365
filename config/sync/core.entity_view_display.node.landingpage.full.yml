@@ -1,0 +1,46 @@
+uuid: 79cde233-135a-411e-98de-3c8e4dc62852
+langcode: sv
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.landingpage.field_lp_hero_image
+    - field.field.node.landingpage.field_lp_hero_preamble
+    - field.field.node.landingpage.field_lp_section
+    - node.type.landingpage
+  module:
+    - entity_reference_revisions
+    - user
+id: node.landingpage.full
+targetEntityType: node
+bundle: landingpage
+mode: full
+content:
+  field_lp_hero_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: hero
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_lp_hero_preamble:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_lp_section:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true
+  links: true

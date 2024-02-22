@@ -4,6 +4,9 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.landingpage.field_lp_hero_image
+    - field.field.node.landingpage.field_lp_hero_preamble
+    - field.field.node.landingpage.field_lp_section
     - node.type.landingpage
   module:
     - user
@@ -18,4 +21,7 @@ content:
     weight: 100
     region: content
 hidden:
+  field_lp_hero_image: true
+  field_lp_hero_preamble: true
+  field_lp_section: true
   langcode: true

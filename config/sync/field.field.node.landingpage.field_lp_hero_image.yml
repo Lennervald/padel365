@@ -1,0 +1,29 @@
+uuid: f5eead90-4902-4e1f-82ca-7bc6e6344fc6
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lp_hero_image
+    - media.type.hero_image
+    - node.type.landingpage
+id: node.landingpage.field_lp_hero_image
+field_name: field_lp_hero_image
+entity_type: node
+bundle: landingpage
+label: 'Hero bild'
+description: 'Använd det här fältet för att ladda upp eller välja en befintlig bild för hero. Optimal storlek på bilden är 1440 x 600.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      hero_image: hero_image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
