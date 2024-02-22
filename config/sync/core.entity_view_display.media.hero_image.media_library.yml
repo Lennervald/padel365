@@ -1,6 +1,6 @@
 uuid: 11ad5ee9-3646-48a3-b18a-2b717c1b0135
 langcode: sv
-status: false
+status: true
 dependencies:
   config:
     - core.entity_view_mode.media.media_library
