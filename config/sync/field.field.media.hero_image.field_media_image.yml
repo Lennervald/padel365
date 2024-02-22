@@ -1,21 +1,16 @@
-uuid: d3c5d676-27fd-4c30-acfd-24e14536c2de
+uuid: afeca53c-f905-41da-8a85-a775c1d5e495
 langcode: sv
 status: true
 dependencies:
   config:
     - field.storage.media.field_media_image
-    - media.type.image
+    - media.type.hero_image
   module:
     - image
-  enforced:
-    module:
-      - media
-_core:
-  default_config_hash: P7CkVOgjDXiN26Fm2hniNei-XPK3iuZTlcBGqreTbJ0
-id: media.image.field_media_image
+id: media.hero_image.field_media_image
 field_name: field_media_image
 entity_type: media
-bundle: image
+bundle: hero_image
 label: Bild
 description: ''
 required: true

@@ -1,0 +1,19 @@
+uuid: 8d7da719-cdb5-4d7f-9827-0129f8e40c31
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.field.media.hero_image.field_media_image
+    - media.type.hero_image
+id: media.hero_image.default
+targetEntityType: media
+bundle: hero_image
+mode: default
+content: {  }
+hidden:
+  created: true
+  field_media_image: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true
