@@ -1,0 +1,10 @@
+uuid: d26ec3d9-6bf1-40e9-9047-ffe31a9e0ce0
+langcode: sv
+status: true
+dependencies: {  }
+id: section_bodytext
+label: 'Sektion Brödtext'
+icon_uuid: null
+icon_default: null
+description: 'Använd den här sektionen om du vill lägga till en formaterbar text på sidan.'
+behavior_plugins: {  }

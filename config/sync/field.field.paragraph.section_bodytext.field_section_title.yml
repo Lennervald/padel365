@@ -1,0 +1,19 @@
+uuid: e940c534-9b70-45a9-ba62-1923dd81775d
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_section_title
+    - paragraphs.paragraphs_type.section_bodytext
+id: paragraph.section_bodytext.field_section_title
+field_name: field_section_title
+entity_type: paragraph
+bundle: section_bodytext
+label: 'Sektionens titel'
+description: 'Sektionens titel visas strax ovanför sektionen, om du väljer att den ska visas.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
