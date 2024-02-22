@@ -2,12 +2,9 @@ uuid: 09edb582-4b84-43e5-b6ad-8d85151ed0f8
 langcode: sv
 status: true
 dependencies:
-  config:
-    - filter.format.basic_html
   module:
     - contact
     - file
-    - filter
     - media
     - search
     - shortcut
@@ -24,5 +21,4 @@ permissions:
   - 'access site-wide contact form'
   - 'delete own files'
   - 'search content'
-  - 'use text format basic_html'
   - 'view media'

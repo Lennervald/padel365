@@ -3,13 +3,16 @@ langcode: sv
 status: true
 dependencies:
   config:
+    - filter.format.basic_html
     - filter.format.full_html
+    - media.type.hero_image
     - node.type.article
     - taxonomy.vocabulary.tags
   module:
     - contextual
     - file
     - filter
+    - media
     - node
     - path
     - system
@@ -29,14 +32,21 @@ permissions:
   - 'access toolbar'
   - 'administer url aliases'
   - 'create article content'
+  - 'create hero_image media'
   - 'create terms in tags'
   - 'create url aliases'
+  - 'delete any hero_image media'
+  - 'delete any hero_image media revisions'
   - 'delete article revisions'
   - 'delete own article content'
   - 'delete own files'
+  - 'delete own hero_image media'
+  - 'edit any hero_image media'
   - 'edit own article content'
+  - 'edit own hero_image media'
   - 'edit terms in tags'
   - 'revert all revisions'
+  - 'use text format basic_html'
   - 'use text format full_html'
   - 'view all revisions'
   - 'view own unpublished content'
