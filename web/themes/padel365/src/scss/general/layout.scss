@@ -1,0 +1,16 @@
+@use '../variables/default';
+
+// Layout
+
+.center {
+    width: default.$center-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .center-small {
+    width: default.$center-small-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
