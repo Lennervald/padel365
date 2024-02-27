@@ -9,7 +9,7 @@ id: node.landingpage.field_lp_hero_preamble
 field_name: field_lp_hero_preamble
 entity_type: node
 bundle: landingpage
-label: 'Hero ingress'
+label: Ingress
 description: 'Använd det här fältet för att ange en ingress-text i hero.'
 required: false
 translatable: false

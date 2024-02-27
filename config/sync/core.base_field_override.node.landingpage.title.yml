@@ -8,7 +8,7 @@ id: node.landingpage.title
 field_name: title
 entity_type: node
 bundle: landingpage
-label: 'Sidans rubrik (visas i hero)'
+label: Titel
 description: ''
 required: true
 translatable: true

@@ -10,7 +10,7 @@ id: node.landingpage.field_lp_hero_image
 field_name: field_lp_hero_image
 entity_type: node
 bundle: landingpage
-label: 'Hero bild'
+label: Bild
 description: 'Använd det här fältet för att ladda upp eller välja en befintlig bild för hero. Optimal storlek på bilden är 1440 x 600.'
 required: false
 translatable: false
