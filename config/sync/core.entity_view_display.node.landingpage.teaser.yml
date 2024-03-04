@@ -14,14 +14,10 @@ id: node.landingpage.teaser
 targetEntityType: node
 bundle: landingpage
 mode: teaser
-content:
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 100
-    region: content
+content: {  }
 hidden:
   field_lp_hero_image: true
   field_lp_hero_preamble: true
   field_lp_section: true
   langcode: true
+  links: true
