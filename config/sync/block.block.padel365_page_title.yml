@@ -1,0 +1,18 @@
+uuid: 22c7dcaa-0ae9-45ec-aa41-7f8f5b94bdfd
+langcode: sv
+status: false
+dependencies:
+  theme:
+    - padel365
+id: padel365_page_title
+theme: padel365
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: Sidtitel
+  label_display: '0'
+  provider: core
+visibility: {  }
