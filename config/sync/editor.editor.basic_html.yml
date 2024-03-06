@@ -22,6 +22,7 @@ settings:
       - '|'
       - blockQuote
       - '|'
+      - style
       - heading
       - '|'
       - removeFormat
@@ -51,6 +52,12 @@ settings:
         - '<h4 id>'
         - '<h5 id>'
         - '<h6 id>'
+        - '<span>'
+    ckeditor5_style:
+      styles:
+        -
+          label: 'Grön text'
+          element: '<span class="green-text">'
     linkit_extension:
       linkit_enabled: false
 image_upload:
