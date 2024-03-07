@@ -50,3 +50,6 @@ web/sites/simpletest
 
 # Ignore DDEV files
 .ddev
+
+# Ignore developer tools
+.vscode/
