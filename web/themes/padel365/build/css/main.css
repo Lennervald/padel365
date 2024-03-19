@@ -313,7 +313,11 @@ template {
 
 html,
 body {
+<<<<<<< Updated upstream
   color: #262626;
+=======
+  color: #475168;
+>>>>>>> Stashed changes
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -334,6 +338,7 @@ a:hover {
   text-decoration: none;
 }
 
+<<<<<<< Updated upstream
 .site-logo {
   display: inline-block;
   height: 65px;
@@ -354,10 +359,15 @@ a:hover {
 
 .center {
   width: 1400px;
+=======
+.center {
+  width: 1440px;
+>>>>>>> Stashed changes
   margin-left: auto;
   margin-right: auto;
 }
 
+<<<<<<< Updated upstream
 @media only screen and (max-width: 1440px) {
   .center {
     width: auto;
@@ -377,6 +387,14 @@ a:hover {
     margin-top: 0;
   }
 }
+=======
+.center-small {
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+>>>>>>> Stashed changes
 .button-group {
   display: flex;
 }
@@ -470,6 +488,7 @@ a:hover {
   white-space: nowrap;
 }
 
+<<<<<<< Updated upstream
 img {
   display: block;
   width: 100%;
@@ -522,4 +541,6 @@ header .header-wrapper {
   align-items: center;
 }
 
+=======
+>>>>>>> Stashed changes
 /*# sourceMappingURL=main.css.map*/
