@@ -22,3 +22,6 @@ libraries:
 
 ckeditor_stylesheets:
   - build/css/ckeditor.css
+
+ckeditor5-stylesheets:
+  - build/css/ckeditor.css
