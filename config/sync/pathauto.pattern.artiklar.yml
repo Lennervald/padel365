@@ -1,0 +1,22 @@
+uuid: 854ddccd-93e0-4bf8-a8eb-2534807cd51c
+langcode: sv
+status: true
+dependencies:
+  module:
+    - node
+id: artiklar
+label: Artiklar
+type: 'canonical_entities:node'
+pattern: 'artiklar/[node:title]'
+selection_criteria:
+  f3d6d2cb-65f3-4fc9-8935-3fec935251f0:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: f3d6d2cb-65f3-4fc9-8935-3fec935251f0
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+selection_logic: and
+weight: -5
+relationships: {  }
