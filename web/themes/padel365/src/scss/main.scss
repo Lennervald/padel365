@@ -12,6 +12,7 @@
 @use './general/general';
 @use './general/legible';
 @use './general/layout';
+@use './general/responsive';
 
 // Optional styling
 //
@@ -39,3 +40,6 @@
 
 @use './media/image';
 @use './media/video';
+
+// Unsorted styling
+@use './general/unsorted.scss';

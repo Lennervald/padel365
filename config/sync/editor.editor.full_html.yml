@@ -13,15 +13,21 @@ editor: ckeditor5
 settings:
   toolbar:
     items:
+      - undo
+      - redo
+      - '|'
       - bold
       - italic
+      - underline
       - strikethrough
       - superscript
       - subscript
       - removeFormat
+      - specialCharacters
       - '|'
       - link
       - '|'
+      - alignment
       - bulletedList
       - numberedList
       - '|'
@@ -30,11 +36,18 @@ settings:
       - insertTable
       - horizontalLine
       - '|'
+      - style
       - heading
       - codeBlock
       - '|'
       - sourceEditing
   plugins:
+    ckeditor5_alignment:
+      enabled_alignments:
+        - center
+        - justify
+        - left
+        - right
     ckeditor5_codeBlock:
       languages:
         -
@@ -94,7 +107,13 @@ settings:
         startIndex: true
       multiBlock: true
     ckeditor5_sourceEditing:
-      allowed_tags: {  }
+      allowed_tags:
+        - '<span>'
+    ckeditor5_style:
+      styles:
+        -
+          label: 'Grön text'
+          element: '<span class="green-text">'
     linkit_extension:
       linkit_enabled: false
 image_upload:

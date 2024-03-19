@@ -16,6 +16,10 @@
 #}
 {% if content %}
   <header role="banner"{{ attributes.addClass('site-header') }}>
-    {{ content }}
+    <div class="center">
+      <div class="header-wrapper">
+        {{ content }}
+      </div>
+    </div>
   </header>
 {% endif %}

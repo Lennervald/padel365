@@ -91,6 +91,8 @@
 
   <div {{ content_attributes }}>
     <h1 {{ title_attributes }}>{{ label }}</h1>
-    <div>{{ content }}</div>
+    {{ content.field_lp_hero_image }}
+    {{ content.field_lp_hero_preamble }}
+    {{ content.field_lp_section }}
   </div>
 </article>
