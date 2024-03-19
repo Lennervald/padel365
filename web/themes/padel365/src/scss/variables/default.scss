@@ -8,11 +8,12 @@ $border-radius: 3px;
 
 // Fonts
 
-$font-color-dark: color.$midnight-black;
-$font-color-white: color.$white;
-$font-family: 'Source Sans Pro', sans-serif;
+$font-family: 'Open Sans', sans-serif;
+$secondary-font-family: 'Domine', 'Open Sans', sans-serif;
 $font-size: 16px;
 $font-weight: 400;
+$font-color-dark: color.$midnight-black;
+$font-color-light: color.$whiteish;
 
 // Sizes
 $size-1: 3px;
@@ -28,6 +29,8 @@ $size-10: 150px;
 
 // Center width
 $center-width: 1400px;
+$center-small-width: 920px;
 
 // Responsive
 $center-breakpoint: $center-width + ($size-4 * 2);
+$center-small-breakpoint: $center-small-width + ($size-4 * 2);

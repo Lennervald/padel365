@@ -1,8 +1,6 @@
 @use '../variables/default';
-@use '../variables/color';
 
-// Center
-// 1440px and margin
+// 1400px and margin
 
 @media only screen and (max-width: default.$center-breakpoint) {
   // Layout
@@ -27,5 +25,16 @@
     &:first-child {
       margin-top: 0;
     }
+  }
+}
+
+// 920px and margin
+
+@media only screen and (max-width: default.$center-small-breakpoint) {
+  // Layout
+  .center-small {
+    width: auto;
+    margin-left: default.$size-4;
+    margin-right: default.$size-4;
   }
 }
