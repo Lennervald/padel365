@@ -1,0 +1,72 @@
+@use '../variables/default';
+@use '../variables/color';
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+header {
+  &.site-header {
+    background-color: #fafafa;
+    display: block;
+  }
+  .header-wrapper {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 100%;
+  }
+}
+
+// Main menu
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    list-style: none;
+
+    li {
+      margin-right: default.$size-4;
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+// EU Cookie Complience
+
+.sliding-popup-bottom {
+  width: 100%;
+}
+
+.eu-cookie-compliance-banner {
+  background-color: color.$midnight-black;
+  color: color.$white;
+
+  .eu-cookie-compliance-content {
+    display: flex;
+    align-items: center;
+    
+    .eu-cookie-compliance-message {
+
+    }
+    
+    .eu-cookie-compliance-buttons{
+
+    }
+  }
+}
