@@ -8,7 +8,8 @@ $border-radius: 3px;
 
 // Fonts
 
-$font-color: color.$charcoal;
+$font-color-dark: color.$midnight-black;
+$font-color-white: color.$white;
 $font-family: 'Source Sans Pro', sans-serif;
 $font-size: 16px;
 $font-weight: 400;
@@ -26,5 +27,7 @@ $size-9: 100px;
 $size-10: 150px;
 
 // Center width
-$center-width: 1440px;
-$center-small-width: 920px;
+$center-width: 1400px;
+
+// Responsive
+$center-breakpoint: $center-width + ($size-4 * 2);

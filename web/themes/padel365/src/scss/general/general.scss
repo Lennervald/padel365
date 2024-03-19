@@ -4,7 +4,7 @@
 
 html,
 body {
-  color: default.$font-color;
+  color: default.$font-color-dark;
   font-family: default.$font-family;
   font-size: default.$font-size;
   font-weight: default.$font-weight;
@@ -23,4 +23,25 @@ a:visited {
 a:active,
 a:hover {
   text-decoration: none;
+}
+
+.site-logo {
+  display: inline-block;
+  height: 65px;
+  max-width: 250px;
+
+  img {
+    width: auto;
+    height: 100%;
+  }
+
+  &:hover,
+  &:focus {
+    opacity: 0.9;
+  }
+}
+
+#block-padel365-site-branding {
+  display: inline-block;
+  height: 65px;
 }

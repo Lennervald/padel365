@@ -1,0 +1,31 @@
+@use '../variables/default';
+@use '../variables/color';
+
+// Center
+// 1440px and margin
+
+@media only screen and (max-width: default.$center-breakpoint) {
+  // Layout
+  .center {
+    width: auto;
+    margin-left: default.$size-6;
+    margin-right: default.$size-6;
+  }
+
+  // Spacing
+  .spacing > * {
+    margin-top: default.$size-4;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .spacing.spacing--small > * {
+    margin-top: default.$size-3;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
