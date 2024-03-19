@@ -8,7 +8,7 @@ id: node.contentpage.title
 field_name: title
 entity_type: node
 bundle: contentpage
-label: 'Sidans rubrik (visas i hero)'
+label: Titel
 description: ''
 required: true
 translatable: true
