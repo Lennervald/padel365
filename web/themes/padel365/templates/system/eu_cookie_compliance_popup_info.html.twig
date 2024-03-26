@@ -47,11 +47,11 @@
   'eu-cookie-compliance-banner--' ~ method|clean_class,
 ] %}
 <div aria-labelledby="popup-text" {{ attributes.addClass(classes) }}>
-  <div class="popup-content info eu-cookie-compliance-content">
+  <div class="popup-content info eu-cookie-compliance-content center legible">
     {% if close_button_enabled %}
       <button class="eu-cookie-compliance-close-button">Close</button>
     {% endif %}
-    <div id="popup-text" class="eu-cookie-compliance-message" role="document">
+    <div id="popup-text" class="eu-cookie-compliance-message spacing" role="document">
       {{ message }}
       {% if more_info_button %}
         <button type="button" class="find-more-button eu-cookie-compliance-more-button">{{ more_info_button }}</button>
@@ -83,13 +83,13 @@
       </div>
     {% endif %}
 
-    <div id="popup-buttons" class="eu-cookie-compliance-buttons{% if cookie_categories %} eu-cookie-compliance-has-categories{% endif %}">
+    <div id="popup-buttons" class="eu-cookie-compliance-buttons {% if cookie_categories %} eu-cookie-compliance-has-categories {% endif %}">
       {% if tertiary_button_label %}
         <button type="button" class="{{ tertiary_button_class }}">{{ tertiary_button_label }}</button>
       {% endif %}
-      <button type="button" class="{{ primary_button_class }}">{{ agree_button }}</button>
+      <button type="button" class="button button--primary button--primary-white {{ primary_button_class }}">{{ agree_button }}</button>
       {% if secondary_button_label %}
-        <button type="button" class="{{ secondary_button_class }}">{{ secondary_button_label }}</button>
+        <button type="button" class="button button--secondary button--secondary-white {{ secondary_button_class }}">{{ secondary_button_label }}</button>
       {% endif %}
     </div>
   </div>

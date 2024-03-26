@@ -1,0 +1,44 @@
+// Cookie banner styles
+
+@use '../variables/default';
+@use '../variables/color';
+
+.sliding-popup-bottom {
+  width: 100%;
+
+  .eu-cookie-compliance-banner {
+    background-color: color.$unnamed-two;
+    color: default.$font-color-light;
+
+    h2 {
+      font-family: default.$font-family;
+      font-size: 1.5rem;
+    }
+
+    a {
+      color: default.$font-color-light;
+    }
+
+    .eu-cookie-compliance-content {
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      padding: default.$size-6 0;
+
+      .eu-cookie-compliance-message {
+      }
+
+      .eu-cookie-compliance-buttons {
+        margin-top: default.$size-3;
+        & > * {
+          margin-right: default.$size-3;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}

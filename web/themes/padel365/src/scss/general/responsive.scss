@@ -37,4 +37,33 @@
     margin-left: default.$size-4;
     margin-right: default.$size-4;
   }
+
+  // EU Cookie Compliance Banner
+  
+  .sliding-popup-bottom {
+    .eu-cookie-compliance-banner {
+      h2 {
+        font-size: 1.375rem;
+      }
+    }
+
+    .eu-cookie-compliance-message {
+      max-width: 100%;
+    }
+
+    .eu-cookie-compliance-buttons {
+      max-width: 100%;
+    }
+  }
+
+  // Site logo
+
+  header .header-wrapper {
+    height: 85px;
+
+    .site-logo {
+      height: 50px;
+    }
+  }
+
 }
