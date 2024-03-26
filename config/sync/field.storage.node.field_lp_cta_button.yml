@@ -1,0 +1,19 @@
+uuid: 1f87a9e8-7e43-4914-b836-ff0abb43abbb
+langcode: sv
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_lp_cta_button
+field_name: field_lp_cta_button
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

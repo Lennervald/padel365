@@ -4,18 +4,32 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.full
+    - field.field.node.landingpage.field_lp_cta_button
     - field.field.node.landingpage.field_lp_hero_image
     - field.field.node.landingpage.field_lp_hero_preamble
     - field.field.node.landingpage.field_lp_section
     - node.type.landingpage
   module:
     - entity_reference_revisions
+    - link
     - user
 id: node.landingpage.full
 targetEntityType: node
 bundle: landingpage
 mode: full
 content:
+  field_lp_cta_button:
+    type: link_separate
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 3
+    region: content
   field_lp_hero_image:
     type: entity_reference_entity_view
     label: hidden

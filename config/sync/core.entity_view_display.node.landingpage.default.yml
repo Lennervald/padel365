@@ -3,6 +3,7 @@ langcode: sv
 status: true
 dependencies:
   config:
+    - field.field.node.landingpage.field_lp_cta_button
     - field.field.node.landingpage.field_lp_hero_image
     - field.field.node.landingpage.field_lp_hero_preamble
     - field.field.node.landingpage.field_lp_section
@@ -15,6 +16,7 @@ bundle: landingpage
 mode: default
 content: {  }
 hidden:
+  field_lp_cta_button: true
   field_lp_hero_image: true
   field_lp_hero_preamble: true
   field_lp_section: true
