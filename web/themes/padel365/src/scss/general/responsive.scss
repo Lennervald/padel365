@@ -4,6 +4,7 @@
 
 @media only screen and (max-width: default.$center-breakpoint) {
   // Layout
+  
   .center {
     width: auto;
     margin-left: default.$size-6;
@@ -11,6 +12,7 @@
   }
 
   // Spacing
+  
   .spacing > * {
     margin-top: default.$size-4;
 
@@ -32,7 +34,8 @@
 
 @media only screen and (max-width: default.$center-small-breakpoint) {
   // Layout
-  .center-small {
+  
+  .center {
     width: auto;
     margin-left: default.$size-4;
     margin-right: default.$size-4;

@@ -16,6 +16,7 @@ $font-color-dark: color.$midnight-black;
 $font-color-light: color.$whiteish;
 
 // Sizes
+
 $size-1: 3px;
 $size-2: 5px;
 $size-3: 10px;
@@ -28,9 +29,11 @@ $size-9: 100px;
 $size-10: 150px;
 
 // Center width
+
 $center-width: 1400px;
 $center-small-width: 920px;
 
 // Responsive
+
 $center-breakpoint: $center-width + ($size-4 * 2);
 $center-small-breakpoint: $center-small-width + ($size-4 * 2);

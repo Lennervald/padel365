@@ -1,11 +1,26 @@
 @use '../variables/default';
+@use '../variables/color';
 
-$button-primary-background-color: #282828;
-$button-secondary-background-color: #eee;
+$button-primary-background-color: color.$midnight-black ;
 
 .button {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-sizing: border-box;
   display: inline-block;
-  width: 100%;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  height: 40px;
+  line-height: normal;
+  min-width: 135px;
+  outline: none;
+  text-align: center;
+  transition: opacity 0.3s ease;
+  width: auto;
+
+  &:hover {
+    opacity: 0.7;
+  }
 }
 
 .button--block {
@@ -18,8 +33,25 @@ $button-secondary-background-color: #eee;
 
 .button--primary {
   background-color: $button-primary-background-color;
+  border: 1px solid transparent;
+
+  &-white {
+    background-color: color.$whiteish;
+    color: color.$midnight-black;
+  }
+  
+  &-white:hover {
+    background-color: color.$whiteish;
+    color: color.$midnight-black;
+  }
 }
 
 .button--secondary {
-  background-color: $button-secondary-background-color;
+  background: none;
+  border: 1px solid $button-primary-background-color;
+
+  &-white {
+    border: 1px solid color.$whiteish;
+    color: color.$whiteish;
+  }
 }

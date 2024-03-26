@@ -1,6 +1,7 @@
 // General styling
 
 @use '../variables/default';
+@use '../variables/color';
 
 html,
 body {
@@ -16,14 +17,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a,
-a:visited {
+a {
+  color: default.$font-color-dark;
+  display: inline-block;
   text-decoration: underline;
-}
 
-a:active,
-a:hover {
-  text-decoration: none;
+  &:hover,
+  &:focus {
+    background-color: color.$green-logo-dark;
+    color: default.$font-color-light;
+  }
 }
 
 .site-logo {
@@ -39,10 +42,12 @@ a:hover {
   &:hover,
   &:focus {
     opacity: 0.9;
+    background: transparent;
   }
 }
 
 #block-padel365-site-branding {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   height: 65px;
 }

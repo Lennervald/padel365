@@ -14,6 +14,26 @@
   margin-right: auto;
 }
 
+// Spacing
+
+.spacing > * {
+  margin-top: default.$size-5;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.spacing.spacing--small > * {
+  margin-top: default.$size-4;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+// Sections
+
 .sections section {
   padding-top: default.$size-6;
   padding-bottom: default.$size-6;
