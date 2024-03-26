@@ -20,6 +20,14 @@ font.source-sans-pro:
       https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700:
         { external: true, minified: true }
 
+# Material icons from google fonts.
+material-icons:
+  css:
+    theme:
+      'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200': { type: external, minified: true }
+
+
+
 # External icons from font awesome.
 icons.font-awesome:
   remote: http://fontawesome.io/

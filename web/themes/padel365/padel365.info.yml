@@ -19,6 +19,8 @@ libraries:
   - padel365/font.source-sans-pro
   - padel365/icons.font-awesome
   - padel365/global
+  - padel365/material-icons
+
 
 ckeditor_stylesheets:
   - build/css/ckeditor.css
