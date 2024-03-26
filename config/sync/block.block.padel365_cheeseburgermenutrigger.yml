@@ -1,0 +1,25 @@
+uuid: 5a428ee8-aadb-4f3e-a97e-89fa9cf4d642
+langcode: sv
+status: true
+dependencies:
+  config:
+    - block.block.padel365_cheeseburgermenu
+  module:
+    - cheeseburger_menu
+  theme:
+    - padel365
+id: padel365_cheeseburgermenutrigger
+theme: padel365
+region: header
+weight: 0
+provider: null
+plugin: cheeseburger_menu_trigger
+settings:
+  id: cheeseburger_menu_trigger
+  label: 'Cheeseburger menu trigger'
+  label_display: '0'
+  provider: cheeseburger_menu
+  block_to_trigger: padel365_cheeseburgermenu
+  breakpoints: {  }
+  custom_media_query: 'all and (min-width: 960px)'
+visibility: {  }

@@ -47,6 +47,22 @@ header {
   }
 }
 
+// Cheeseburger menu
+.block-cheeseburgermenu-container {
+  background-color: color.$midnight-black;
+  width: 100%;
+
+  li {
+    padding-left: 0;
+
+    a {
+      justify-content: center;
+      min-width: unset;
+      max-width: unset;
+    }
+  }
+}
+
 // EU Cookie Complience
 
 .sliding-popup-bottom {
