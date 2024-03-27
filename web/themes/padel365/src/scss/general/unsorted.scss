@@ -17,6 +17,11 @@ header {
     display: flex;
     height: 100px;
     width: 100%;
+
+    @media screen and (max-width: default.$center-small-breakpoint) {
+      justify-content: space-between;
+    }
+  
   }
 }
 
@@ -27,6 +32,10 @@ header {
   align-items: center;
   justify-content: flex-end;
   width: 100%;
+
+  @media screen and (max-width: default.$center-small-breakpoint) {
+    display: none;
+  }
 
   ul {
     display: flex;
@@ -42,6 +51,12 @@ header {
         text-decoration: none;
         font-size: 1rem;
         font-weight: 400;
+        padding: 0 5px;
+
+        &:hover {
+          color: color.$white;
+          padding: 0 5px;
+        }
       }
     }
   }
@@ -52,11 +67,41 @@ header {
   background-color: color.$midnight-black;
   width: 100%;
 
+  .cheeseburger-menu__main-navigation-area {
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      li {
+        display: inline-block;
+
+        a {
+          min-height: unset;
+          margin-bottom: 30px;
+          padding: 0 5px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .cheeseburger-menu__side-trigger {
+    align-items: flex-end;
+    padding-right: 30px;
+
+    svg {
+      width: 30px;
+      height: 30px;
+      margin: unset;
+    }
+  }
+
   li {
-    padding-left: 0;
+    padding-left: 0px;
 
     a {
-      justify-content: center;
+      justify-content: flex-start;
       min-width: unset;
       max-width: unset;
     }
